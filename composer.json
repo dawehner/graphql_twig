@@ -1,0 +1,11 @@
+{
+  "name": "drupal/graphql_twig",
+  "type": "drupal-module",
+  "description": "Exposes dawehner/graphql-twig to drupal twig files",
+  "homepage": "http://drupal.org/project/graphql_twig",
+  "license": "GPL-2.0+",
+  "require": {
+    "dawehner/graphql-twig": "dev-master"
+  },
+  "minimum-stability": "dev"
+}
