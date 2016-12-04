@@ -2,3 +2,5 @@ services:
   graphql_twig.twig_extension:
     class: \dawehner\GraphqlTwig\GraphqlTwigExtension
     arguments: ['@graphql.processor']
+    tags:
+      - { name: twig.extension }
